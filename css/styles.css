@@ -1,0 +1,142 @@
+
+
+  :root {
+    --primary-text-color:#757575 ;
+    --title-text-color:#212121 ;
+    --accent-color: #2196F3;
+    --background-color: #FFF;
+}
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--title-text-color) ;
+    font-size: 14px;
+    line-height: normal;
+}
+
+h1 {
+ color: #FFF;
+text-align: center;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+}
+
+h2 {
+color:var(--title-text-color);
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+h3{color:var(--title-text-color);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase; }
+
+    h4{color:var(--title-text-color);
+
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.48px;
+
+    }
+
+   a{color: var(--title-text-color)
+    
+    ;}
+    
+p{color:var(--primary-text-color);
+
+    font-size: 14px;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px; }
+
+.team p {color:var(--primary-text-color);
+
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    letter-spacing: 0.48px;
+
+}    
+     
+
+button {
+width: 200px;
+height: 50px;
+flex-shrink: 0;
+}
+.primary-button {
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+  
+}
+
+
+ 
+.primary-button:focus,
+.primary-button:hover{
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+address a:focus,
+address a:hover,
+.site-nav a:focus,
+.site-nav a:hover{
+    color:var(--accent-color);
+}
+
+address a:active,
+.primary-button:active,
+.site-nav a:active {
+    color:grey;
+}
+
+.web {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+
+}
+
+.studio {
+    color: #000;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+
+}
+
+
